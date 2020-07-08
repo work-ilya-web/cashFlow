@@ -1,0 +1,284 @@
+ [{
+     id: '1',
+     type: 'field',
+     name: 'РЫНОК',
+     color: 'blue',
+   },
+   {
+     id: '2',
+     type: 'field',
+     name: 'ВОЗМОЖНОСТЬ',
+     color: 'green'
+   },
+   {
+     id: '3',
+     type: 'field',
+     name: 'ВСЯКАЯ ВСЯЧИНА',
+     color: 'red'
+   },
+   {
+     id: '4',
+     type: 'field',
+     name: 'ВОЗМОЖНОСТЬ',
+     color: 'green'
+   },
+   {
+     id: '5',
+     type: 'field',
+     name: 'РЕБЕНОК',
+     color: 'blue'
+   },
+   {
+     id: '6',
+     type: 'field',
+     name: 'ВОЗМОЖНОСТЬ',
+     color: 'green'
+   },
+   {
+     id: '7',
+     type: 'field',
+     name: 'Расчетный счет',
+     color: 'yellow'
+   },
+   {
+     id: '8',
+     type: 'field',
+     name: 'ВОЗМОЖНОСТЬ',
+     color: 'green'
+   },
+   {
+     id: '9',
+     type: 'field',
+     name: 'РЫНОК',
+     color: 'blue'
+   },
+
+
+
+   {
+     id: '10',
+     type: 'field',
+     name: 'ВОЗМОЖНОСТЬ',
+     color: 'green'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'rolls',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'rolls_result',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '11',
+     type: 'field',
+     name: 'ВОЗМОЖНОСТЬ',
+     color: 'green'
+   },
+
+   {
+     id: '12',
+     type: 'field',
+     name: 'Расчетный счет',
+     color: 'yellow'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '13',
+     type: 'field',
+     name: 'ВСЯКАЯ ВСЯЧИНА',
+     color: 'red'
+   },
+
+   {
+     id: '14',
+     type: 'field',
+     name: 'ВОЗМОЖНОСТЬ',
+     color: 'green'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '',
+     type: 'empty',
+     name: '',
+     color: 'empty'
+   },
+   {
+     id: '15',
+     type: 'field',
+     name: 'ВОЗМОЖНОСТЬ',
+     color: 'green'
+   },
+
+
+
+   {
+     id: '16',
+     type: 'field',
+     name: 'БЛАГОТВОРИТЕЛЬНОСТЬ.',
+     helper: '10% общего дохода',
+     color: 'orange'
+   },
+   {
+     id: '17',
+     type: 'field',
+     name: 'ВОЗМОЖНОСТЬ',
+     color: 'green'
+   },
+   {
+     id: '18',
+     type: 'field',
+     name: 'ВСЯКАЯ ВСЯЧИНА',
+     color: 'red'
+   },
+   {
+     id: '19',
+     type: 'field',
+     name: 'ВОЗМОЖНОСТЬ',
+     color: 'green'
+   },
+   {
+     id: '20',
+     type: 'field',
+     name: 'РЫНОК',
+     color: 'blue'
+   },
+
+
+   {
+     id: '21',
+     type: 'field',
+     name: 'ВОЗМОЖНОСТЬ',
+     color: 'green'
+   },
+   {
+     id: '22',
+     type: 'field',
+     name: 'Расчетный счет',
+     color: 'yellow'
+   },
+   {
+     id: '23',
+     type: 'field',
+     name: 'ВОЗМОЖНОСТЬ',
+     color: 'green'
+   },
+
+   {
+     id: '24',
+     type: 'field',
+     name: 'Увольнение',
+     helper: 'общая сумма расходов',
+     color: 'orange'
+   },
+
+
+ ]

@@ -1,0 +1,78 @@
+/************    main     *************/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald',  sans-serif;
+}
+
+
+/************    flex     *************/
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+
+/************    field     *************/
+.field {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  width: calc(100% / 9);
+  color: #fff;
+  font-size: 16px;
+  height: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:#000;
+}
+.field__helper{
+  font-size: 14px;
+  text-transform: none;
+  display: block;
+  font-weight: 400;
+}
+
+.field_green {
+  background: #5aeb5a;
+}
+
+.field_empty {
+  border: 1px solid #eee;
+}
+
+.field_red {
+  background: #ffb9b9;
+}
+
+.field_blue {
+  background: #c4c4f1;
+}
+
+.field_orange {
+  background: rgb(240, 178, 65);
+}
+
+.field_yellow {
+  background: yellow;
+  color: green;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/************    rat-race     *************/
+
+.rat-race {
+  padding: 20px;
+  flex-wrap: wrap;
+  width: 100vw;
+}
