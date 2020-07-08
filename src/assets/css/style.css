@@ -34,6 +34,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color:#000;
+  position: relative;
 }
 .field__helper{
   font-size: 14px;
@@ -68,7 +69,10 @@ body {
   text-transform: uppercase;
   font-weight: bold;
 }
-
+.field__start {
+  font-size: 10px;
+  color: #007d00;
+}
 /************    rat-race     *************/
 
 .rat-race {

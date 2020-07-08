@@ -1,6 +1,5 @@
 <template> 
-      <div>
-        
+      <div >        
         <rat-race  v-bind:items="fields.data"></rat-race>  
       </div> 
 </template>
@@ -11,7 +10,8 @@
   export default { 
     data(){
       return { 
-        fields: null
+        fields: null,
+        element: document.querySelector('[data-event="start"')
       }
     }, 
     components: {
@@ -19,7 +19,15 @@
     },
     mounted() {
       axios.get('https://copyl.ru/json/RatRase.json').then(response => (this.fields = response));         
-    }
+    },
+    methods: {
+      someMethod: function (event) {
+        console.log(this.element.getBoundingClientRect());
+         
+        this.$refs.start.innerText = "Welcome to Vue.js";
+      }
+    },
+  
   }
   
 </script>

@@ -1,8 +1,9 @@
 <template>    
   
-      <div v-if="GameCell.type=='field' || GameCell.type=='empty'" :class="['field', 'field_'+GameCell.color ]" :data-id=GameCell.id>
+      <div v-if="GameCell.type=='field' || GameCell.type=='empty'" :ref=GameCell.event :class="['field', 'field_'+GameCell.color ]" :data-id=GameCell.id>
         {{GameCell.name}}
         <span class="field__helper">{{GameCell.helper}}</span>
+        <span class="field__start" v-if="GameCell.event=='start'">{{GameCell.event}}</span>
       </div>    
       <div v-else-if="GameCell.type=='rolls'" class="field">
           <rolls></rolls>  
@@ -17,6 +18,21 @@
     props: ['GameCell'],
     components: {
       Rolls : Rolls
+    },
+    mounted() {       
+       this.coordinatesStart;
+       window.addEventListener('resize', this.coordinatesStart)
+    },
+    updated() {       
+       this.coordinatesStart;
+    },
+    methods: {
+      coordinatesStart: function (event) {
+        if(this.GameCell.event == 'start'){
+            console.log( this.$refs.start.getBoundingClientRect());           
+        }
+      }
     }
   }
+  
 </script>
