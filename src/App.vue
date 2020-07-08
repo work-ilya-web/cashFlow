@@ -1,5 +1,8 @@
 <template> 
-      <rat-race  v-bind:items="fields.data"></rat-race>   
+      <div>
+        
+        <rat-race  v-bind:items="fields.data"></rat-race>  
+      </div> 
 </template>
  
 <script>
